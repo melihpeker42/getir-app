@@ -5,7 +5,9 @@ import categoryData from "../api/categories.json"
 import Category from '../components/ui/Category';
 
 export default function Categories() {
+
   const [categories,setCategories]=useState();
+  
 useEffect(() => {
   setCategories(categoryData)
 }, []);

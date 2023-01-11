@@ -1,6 +1,17 @@
 body {
   margin: 0;
-  background-color:#f0f1f3;
+  padding: 0;
+  background-color: #FAFAFA;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #9ca3af;
+}
+.App{
+  overflow-x: hidden;
 }
 .bg-brand-color {
   --tw-bg-opacity: 1;
@@ -42,7 +53,7 @@ body {
 :root {
   --color-primary: #5d3ebc;
 }
-.carousel{
+.carousel {
   min-height: min-content;
 }
 .carousel-1 {
@@ -50,7 +61,7 @@ body {
   display: inline-block;
   width: auto;
 }
-.img11{
+.img11 {
   width: 100%;
 }
 .carousel-1:after {
@@ -119,20 +130,19 @@ body {
 .carousel-3 img {
   display: block;
 }
-.logo{
+.logo {
   position: absolute;
   top: 20%;
   left: 20%;
   z-index: 2;
   display: flex;
-  justify-content: center
-
+  justify-content: center;
 }
-.minute-text{
+.minute-text {
   font-size: 36px;
   color: white;
 }
-.phone{
+.phone {
   width: 350px;
   height: 230px;
   position: absolute;
@@ -145,79 +155,82 @@ body {
   border-radius: 8px;
   z-index: 10;
 }
-.text-login{
-  color:#5d3ebc; 
+.text-login {
+  color: #5d3ebc;
   font-size: 16px;
   text-align: center;
   font-weight: 600;
 }
-.phoneNumber{
+.phoneNumber {
   width: 100px;
   position: relative;
   left: 20px;
   top: -10px;
 }
-.flag-select button{
+.flag-select button {
   height: 56px;
- width: auto;
+  width: auto;
 }
-.phone-number-text{
+.phone-number-text {
   display: flex;
   position: relative;
-  left:120px;
+  left: 120px;
   height: 56px;
   top: -60px;
-
 }
 
-.deneme1:hover{
+.deneme1:hover {
   border: 5 px;
   border-color: #5d3ebc;
 }
-.phone-go{
+.phone-go {
   width: 310px;
   background-color: #ffd300;
   color: #5d3ebc;
   border: none;
   border-radius: 10px;
   height: 50px;
-  font-size:15px;
+  font-size: 15px;
   font-weight: 600;
   margin-top: -25px;
   cursor: pointer;
 }
-.phone-go:hover{
-background-color: #5d3ebc;
-color: #ffd300
-}
-.categories{
-  background-color: white;
-  margin-top: 20px;
-}
-.cate{
- margin-left: 10%;
- height: 300px;
+.phone-go:hover {
+  background-color: #5d3ebc;
+  color: #ffd300;
 }
 /* categories */
 
-.grid{
+.categories {
+  background-color: white;
+}
+.cate {
+  margin-left: 10%;
+  height: 300px;
+  margin-top: -22px;
+}
+.h4{
+  margin: 0;
+}
+
+.grid {
   position: relative;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  gap: 20px;
-  row-gap: 30px;
+  gap: 16px;
+  row-gap: 20px;
+  column-gap: 16px;
   
 }
-.categories-image{
+
+.categories-image {
   display: flex;
   align-items: center;
-  width:48px;
+  width: 48px;
   height: 48px;
-  border: 1px solid;
-  border-radius: 8px;
-  
+  border: 1px solid rgba(25, 25, 25, 0.1);  border-radius: 8px;
 }
-.products{
+.products {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -225,7 +238,216 @@ color: #ffd300
   color: black;
   box-sizing: border-box;
   font-size: 14px;
+  width: auto;
+  height: 100px;
+  justify-content: center;
+}
+.products:hover{
+  background-color:#F3F0FE;
+}
+/* campaigns */
+.need-banners{
+  width:400px;
+  height: 200px;
+}
+.campaings{
+position:relative;
+left: 10%;
+}
+/* mobile-app */
+.mobile-app{
+  margin: auto;
+  background-color: #5d3ebc;
+  background-image: url("https://cdn.getir.com/getirweb-images/common/illustration/doodle.png");
+  margin-top: 24px;
+  border-radius: 8px;
+  display: flex;
+  margin:0 20px;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
+.getir-text-cont{
+  padding-bottom: 40px;
+}
+
+.img-gtr{
+    width: 52.3%;
+    margin-left: 8vw;
+    
+}
+
+.mobile-app-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ padding: 40px;
+ padding-bottom: 0;  
+}
+.getir-text{
+  font-weight:700;
+  font-size: 26px;
+    line-height: 34px;
+    color: rgb(255, 255, 255);
+}
+.request-text{
+  font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    margin-top: 12px;
+    font-weight:600;
+}
+.nav-img{
+  display: flex;
+padding-top:32px;
+gap:5px;
+}
+/* Cards */
+.cards-cont{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.card-title {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #5d3ebc;
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+}
+.cards{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;  
+  text-align: center;
+}
+.card{
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+  width: 400px;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  height: auto;
+  background-color: #ffffff;
+  justify-content: center;
+}
+/* footer */
+
+.footer-cont{
+background-color: white;
+padding: 15px;
+margin: auto;
+width: 95%;
+margin-top: 40px;
+
+}
+.footer{
+padding: 20px;
+width: 100%;
+height: 100%;
+}
+.foot{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
+}
+.getir-down-text{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5d3ebc;
+}
+.footer-img{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.items-text{
+  color: black;
+}
+.ul-text{
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.qr-kod{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 1px 6px ;
+  width: 104px;
+  border-radius: 8px;
+  height: 116px;
+  
+}
+.qr-kod-img{
+  width: 72px;
+  height: 80px;
+  cursor: pointer;
+}
+.footer_2023{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #F3F0FE;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.text-footer-2023{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(82, 82, 82);
+}
+.content-society{
+  color:#5d3ebc;
+}
+.footer-icons{
+display: flex;
+gap:20px;
+}
+.facebook-icons{
+  width: 20px;
+  height: 20px;
+}
+.facebook-icons:hover{
+  color: #5d3ebc;
+}
+.twitter-icons{
+  width: 20px;
+  height: 20px;
+}
+.twitter-icons:hover{
+  color: #5d3ebc;
+}
+.instagram-icons{
+  width: 20px;
+  height: 20px;
+}
+.instagram-icons:hover{
+  color: #5d3ebc;
+}
+.globe-icons{
+  width: 20px;
+  height: 20px;
+}
+.globe-icons:hover{
+  color: #5d3ebc;
+}
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
