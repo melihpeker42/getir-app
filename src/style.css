@@ -130,8 +130,23 @@ a{
 .carousel-3 img {
   display: block;
 }
-.logo {
+
+.slick-slider .slick-initialized{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.wrapper {
   position: absolute;
+  /* margin-top: 25px; */
+  display: flex;
+  height: auto;
+  /* height: 100%; */
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo {
   top: 20%;
   left: 20%;
   z-index: 2;
@@ -145,7 +160,6 @@ a{
 .phone {
   width: 350px;
   height: 230px;
-  position: absolute;
   left: 60%;
   top: 20%;
   background-color: #fafafa;
@@ -206,11 +220,17 @@ a{
 }
 .cate {
   margin-left: 10%;
-  height: 300px;
+  height: max-content;
   margin-top: -22px;
 }
 .h4{
   margin: 0;
+}.test242 {
+  z-index: 15;
+}
+.slick-slider{
+  display: flex;
+  align-items: center;
 }
 
 .grid {

@@ -26,8 +26,43 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="carousel">
+    <div className="test25">
+  <div>
+
+  </div>
+       
+<div className="carousel">
+<div className="wrapper">
+  <div className="test242">
+      <div className="logo">
+        <div>
+          <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"></img>
+          <h3 className="minute-text">
+            Dakikalar içinde <br /> kapınızda
+          </h3>
+        </div>
+      </div>
+      </div>
+      <div className="phone">
+        <h5 className="text-login"> Giriş yap veya kayıt ol</h5>
+        <div className="phoneNumber">
+          <ReactFlagsSelect
+            countries={Object.keys(phones)}
+            customLabels={ phones}
+            onSelect={(code) => setSelected(code)}
+            selected={selected}
+            className="flag-select"
+          />
+          <div className="phone-number-text">
+            <input className="deneme1" type="text" placeholder="Telefon Numarası" />
+          </div>
+          <button className="phone-go">Telefon numarası ile devam et</button>
+        </div>
+      </div>
+  </div>
+
       <Slider {...settings}>
+        
         <div className="carousel-1">
           <img
             className="img11"
@@ -46,32 +81,12 @@ export default function HeroSection() {
             src="https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-2.jpg"
           ></img>
         </div>
+
+
       </Slider>
-      <div className="phone">
-        <h5 className="text-login"> Giriş yap veya kayıt ol</h5>
-        <div className="phoneNumber">
-          <ReactFlagsSelect
-            countries={Object.keys(phones)}
-            customLabels={ phones}
-            onSelect={(code) => setSelected(code)}
-            selected={selected}
-            className="flag-select"
-          />
-          <div className="phone-number-text">
-            <input className="deneme1" type="text" placeholder="Telefon Numarası" />
-          </div>
-          <button className="phone-go">Telefon numarası ile devam et</button>
-        </div>
-        
-      </div>
-      <div className="logo">
-        <div>
-          <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"></img>
-          <h3 className="minute-text">
-            Dakikalar içinde <br /> kapınızda
-          </h3>
-        </div>
-      </div>
+     
     </div>
+    </div>
+    
   );
 }
