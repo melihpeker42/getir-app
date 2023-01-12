@@ -15,7 +15,7 @@ a{
 }
 .bg-brand-color {
   --tw-bg-opacity: 1;
-  background-color: rgb(93 62 188 / var(--tw-bg-opacity));
+background-color: #4C3398;
 }
 .container {
   display: flex;
@@ -182,8 +182,11 @@ a{
   top: -10px;
 }
 .flag-select button {
-  height: 56px;
-  width: auto;
+  height: 100%;
+  font-size: 16px;
+  width: max-content;
+  padding-bottom: 0;
+  margin-right: 15px;
 }
 .phone-number-text {
   display: flex;
@@ -468,6 +471,77 @@ gap:20px;
 }
 .globe-icons:hover{
   color: #5d3ebc;
+}
+/* getir mobile section */
+.getir-header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d3ebc;
+  height:64px;
+}
+.adress{
+  width: 100%;
+    height: 100%;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 10px 16px;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-image: initial;
+    cursor: pointer;
+    background-color: inherit;
+    color: inherit;
+    border-color: inherit;
+
+}
+.location-icon{
+  color: #5d3ebc;
+  width: 24px;
+  height: 24px;
+}
+.arrow-right{
+  width: 24px;
+  height: 24px;
+
+}
+.adress-cont{
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+.login-mobile{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.login-or-register{
+  color: #5d3ebc;
+  font-size:16px;
+  margin-bottom: 15px;
+  font-weight: 600;
+
+}
+
+.number-select-cont{
+background-color: #4C3398;
+}
+.number-select{
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.number-text-mobile{
+}
+.text-number{
+  height: 50px;
+  width: 100%;
 }
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");

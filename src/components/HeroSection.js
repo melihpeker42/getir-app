@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
+import HeroSecMobile from "./ui/HeroSecMobile"
 
 export default function HeroSection() {
   const [selected, setSelected] = useState("TR");
@@ -27,6 +28,7 @@ export default function HeroSection() {
 
   return (
     <div className="test25">
+    <HeroSecMobile/>
   <div>
 
   </div>
@@ -60,7 +62,6 @@ export default function HeroSection() {
         </div>
       </div>
   </div>
-
       <Slider {...settings}>
         
         <div className="carousel-1">

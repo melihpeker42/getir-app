@@ -4,20 +4,21 @@
     gap: 0px;
     grid-template-columns: repeat(5, 1fr);
 }
-}
+} 
 @media (max-width: 767px){
     .grid{
         gap:0px;
         grid-template-columns: repeat(4, 1fr);
+        left: -10%;
     
     }
-}
+} 
 
-@media (max-width:767px){
+ @media (max-width:767px){
     .mobile-app-box{
         grid-column: 1 / -1;
     }
-}
+} 
 
 @media (max-width: 767px)
 {
@@ -31,9 +32,21 @@
     margin-top: 0px;
     overflow: visible;
 }
-}
-@media (max-width:767px){
+} 
+ @media (max-width:800px)
+{
+    .login{
+        display: none;
+    }
+} 
+
+
+ @media (max-width:800px){
     .carousel{
         display: none;
     }
-}
+} 
+
+
+
+
