@@ -537,11 +537,31 @@ background-color: #4C3398;
   margin-left: 15px;
   margin-right: 15px;
 }
-.number-text-mobile{
-}
+
 .text-number{
   height: 50px;
   width: 100%;
+}
+.phone-and-cont{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.phone-and-go{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffd300;
+  color: #5d3ebc;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");

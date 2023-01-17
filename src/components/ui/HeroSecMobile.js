@@ -41,14 +41,15 @@ export default function HeroSecMobile() {
             customLabels={phones}
             onSelect={(code) => setSelected(code)}
             selected={selected}
-            className="<flag-select>"
+            className="flag-select"
           />
+
         <input className="text-number" type="text" placeholder="Telefon Numarası" />
         </div>
-        <div className="number-text-mobile">
-            
-          </div>
-        <div>sadasd</div>
+        
+        <div className="phone-and-cont">
+          <button className="phone-and-go">Telefon numarası ile devam et</button>
+        </div>
       </div>
     </div>
   );
