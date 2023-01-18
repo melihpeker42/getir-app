@@ -343,6 +343,7 @@ gap:5px;
 .card-img {
   width: 150px;
   height: 150px;
+  padding: 10px;
 }
 .cards{
   width: 90%;
@@ -364,6 +365,7 @@ gap:5px;
   height: auto;
   background-color: #ffffff;
   justify-content: center;
+  box-shadow: rgb(93 62 188 / 4%) 0px 6px 24px;
 }
 /* footer */
 

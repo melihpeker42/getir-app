@@ -1,3 +1,15 @@
+.hero-cont {display: none;
+
+}
+
+@media(max-width:800px)
+{
+    .body{
+        background-color: #FAFAFA;
+    }
+}
+
+
 @media (min-width: 767px) and (max-width: 1023px)
 {
 .grid {
@@ -23,32 +35,23 @@
 @media (max-width: 767px)
 {
 .mobile-app-box {
-    display: grid;
-    grid-template-columns: 1fr min(100%, 1232px) 1fr;
-    position: relative;
-    height: auto;
-    padding: 0px;
-    margin-bottom: 16px;
-    margin-top: 0px;
-    overflow: visible;
+    padding: 0;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
 }
 } 
- @media (max-width:800px)
+@media (max-width:800px)
 {
+    .img-gtr{
+        display: none;
+    }
     .login{
         display: none;
     }
-} 
-
-
- @media (max-width:800px){
     .carousel{
         display: none;
     }
-} 
-
-@media (max-width:800px)
-{
     .mobile-app{
         display: grid;
         grid-column: 2/auto;
@@ -64,17 +67,39 @@
         padding: 10px;
     }
     .getir-text-cont{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding: 0;
 
     }
     .nav-img{
         display: flex;
         flex-direction: column;
     }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card{
+        padding: 0;
+        width: 100%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-cont{
+        margin: 0;
+    }
+    .footer_2023{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-cont{
+        display: block;
+    }
 }
-
-
 
 
