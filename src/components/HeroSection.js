@@ -27,7 +27,7 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="test25">
+    <div className="hero-mobile">
     <HeroSecMobile/>
   <div>
 
@@ -56,7 +56,7 @@ export default function HeroSection() {
             className="flag-select"
           />
           <div className="phone-number-text">
-            <input className="deneme1" type="text" placeholder="Telefon Numarası" />
+            <input className="phone-number-input" type="text" placeholder="Telefon Numarası" />
           </div>
           <button className="phone-go">Telefon numarası ile devam et</button>
         </div>
